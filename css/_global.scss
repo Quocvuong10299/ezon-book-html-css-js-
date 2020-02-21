@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  body{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    .row{
+      width: 100%;
+    }
+    a{
+      text-decoration: none!important;
+    }
+    font-family: 'Poppins', sans-serif;
+    img{
+      vertical-align: middle;
+      border-style: none;
+      width:100%;
+    }
+    outline:none;
+    #scrollUp{
+      background: #050035 none repeat scroll 0 0;
+      bottom: 85px;
+      cursor: pointer;
+      display: block;
+      height: 40px;
+      line-height: 44px;
+      right: 12px;
+      text-align: center;
+      width: 40px;
+      position: fixed;
+      border-radius: 100%;
+      z-index: 999999999999999;
+      .fa{
+        font-size: 20px;
+        color: #fff;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}

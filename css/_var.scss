@@ -1,0 +1,82 @@
+$color-red: #f44344;
+$color-black:#000;
+$color-white-1: #e8e8e8;
+$color-white-2: #f6f6f6;
+$color-blue-black:#070b21;
+$color-gray-black-1:#666;
+$color-gray-black-2:#383838;
+$color-gray-black-3:#787878;
+$color-gray-black-4:#686868;
+$color-gray-black-5:#999;
+$color-gray-black-6:#828282;
+$color-gray-black-7:#353535;
+$color-gray-black-8:#050035;
+$color-overlay:rgba(0, 0, 0, 0.4);
+$color-box-shadow:0px 3px 47px 0px rgba(0, 0, 0, 0.75);
+
+//mixin with scss
+@mixin line-title{
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #666666;
+}
+@mixin blur-title{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 0;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+  text-align: center;
+  overflow: hidden;
+}
+@mixin buy-blur-title{
+  background-color: #fff;
+  position: relative;
+  border-radius: 50px;
+  color: #383838;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 8px;
+  padding: 10px 20px 12px;
+  transition: all 0.6s linear;
+  white-space: nowrap;
+}
+
+@mixin play-icon{
+  background-color: #fff;
+  border-radius: 100%;
+  color: #383838;
+  display: inline-block;
+  font-size: 18px;
+  height: 40px;
+  line-height: 45px;
+  margin: 0 8px;
+  width: 40px;
+  bottom: -2px;
+  position: relative;
+  transition: all 0.6s linear;
+}
+@mixin input-email{
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #787878;
+  border-radius: 50px;
+  box-shadow: none;
+  color: #666666;
+  font-size: 14px;
+  height: 48px;
+  padding-left: 50px;
+  padding-right: 180px;
+  width: 100%;
+  outline: none;
+}

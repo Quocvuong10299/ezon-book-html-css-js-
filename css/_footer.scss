@@ -1,0 +1,96 @@
+.footer{
+  .footer-top-area{
+    background: #f7f7f7;
+    padding:105px 0 65px 0;
+    .container{
+      .row{
+        .footer-widget{
+          position: relative;
+          z-index: 9;
+          >h3{
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 35px;
+            .fa{
+              display: inline-block;
+              font-size: 20px;
+              padding-left: 0.4em;
+              color: #383838;
+              visibility: hidden;
+            }
+          }
+          .footer-info-wrapper{
+            .footer-address{
+              display: flex;
+              margin-bottom: 19px;
+              .footer-info-icon{
+                padding-right: 0.5em;
+                padding-top:0.2em;
+                >.fa{
+                  font-size: 20px;
+                  color: #999999;
+                }
+              }
+              .footer-info-content{
+                >p{
+                  color: #999999;
+                  line-height: 28px;
+                  margin: 0;
+                  font-size: 16px;
+                  >a{
+                    color: #999999;
+                    line-height: 28px;
+                    margin: 0;
+                    font-size: 16px;
+                  }
+                }
+              }
+            }
+          }
+          .footer-widget-content-2{
+            >ul{
+              margin: 0px;
+              padding: 0px;
+              list-style: none;
+              >li{
+                margin-bottom: 16px;
+                a{
+                  color: #999999;
+                  font-size: 16px;
+                  transition: all 0.2s linear;
+                  &:hover{
+                    color: #f44344;
+                    transition: all 0.2s linear;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer-bottom{
+    background: #eeeeee;
+    padding: 20px 0;
+    .container{
+      .row{
+        .copyright-2{
+          >p{
+            color: #666666;
+            margin: 2px 0 0;
+            >a{
+              color: #f44344;
+            }
+          }
+        }
+        .vipcard{
+          justify-content: flex-end;
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
